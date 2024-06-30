@@ -51,7 +51,7 @@ header{
     justify-content: center;
 }
 #cover-image-section{
-    border: 2px solid orange;
+    
     width: 70%;
     margin: 50px auto;
 
@@ -59,4 +59,45 @@ header{
 #cover-image-section img{
     width: 100%;
 }
+#search-section{
+   
+    width: 70%;
+    margin: 10% auto;
+}
+#search-section >h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#search-container{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(241, 241, 214);
+    border: 2px solid black;
+    display: flex;
+}
+#search-bar{
+    width: 70%;
+    
+    
+}
+#search-bar > input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: rgb(241, 241, 214);
+
+}
+
+#search-button{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+ 
 
